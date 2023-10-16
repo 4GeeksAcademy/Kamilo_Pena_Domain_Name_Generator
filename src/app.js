@@ -19,7 +19,7 @@ window.onload = function() {
       for (let b = 0; b < noun.length; b++) {
         let randomNoun = noun[b];
         for (let c = 0; c < hacks.length; c++) {
-          let randomHacks = hacks[i];
+          let randomHacks = hacks[c];
           console.log(randomPronoun, randomAdj, randomNoun, randomHacks);
         }
       }
